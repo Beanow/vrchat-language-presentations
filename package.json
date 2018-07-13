@@ -1,0 +1,27 @@
+{
+  "name": "vrchat-language-presentations",
+  "version": "1.0.0",
+  "author": "https://github.com/Beanow",
+  "scripts": {
+    "dist": "webpack -p --progress",
+    "dev": "webpack -d --progress --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "preact": "^8.2.9",
+    "script-ext-html-webpack-plugin": "^2.0.1",
+    "style-loader": "^0.21.0",
+    "url-search-params-polyfill": "^4.0.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^2.1.5",
+    "whatwg-fetch": "^2.0.4"
+  }
+}
