@@ -4,9 +4,10 @@ exports.defaultState = {
 	activePI: 0,
 	activeSI: 0,
 	presentations: [
-		require('../presentations/soontm.jsx'),
+		require('../presentations/welcome.jsx'),
 		require('../presentations/dummy.jsx')
 	],
+	showLog: false,
 	log: ['Default state loaded']
 };
 

@@ -46,5 +46,8 @@ exports.reduceAction = (state, action) => {
 			}
 			return {...state, isMenuOpen: !state.isMenuOpen};
 
+		case 'FN_GREEN': return {...state, showLog: true};
+		case 'FN_RED': return {...state, showLog: false};
+
 	}
 };

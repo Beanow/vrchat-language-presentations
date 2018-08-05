@@ -31,15 +31,16 @@ h1, h2, h3 {
 	flex: none;
 	width: 50vw;
 	height: 100vh;
-	padding: 0 2px;
+	padding: 0;
 }
 #rightPanel {
+	padding-left: 5px;
 	position: relative;
 }
 #log {
 	position: absolute;
-	top: 5vh;
-	right: 5vw;
+	top: 20px;
+	right: 20px;
 	background: rgba(255,255,255,0.6);
 	padding: 10px;
 }
@@ -69,8 +70,40 @@ h1, h2, h3 {
 	transition-property: font-size, line-height;
 }
 #menu .item.highlighted {
-	font-size: 64px;
+	font-size: 50px;
 	line-height: 80px;
+}
+#menu .item.active {
+	color: #cc0000;
+}
+
+#buttonHelp {
+	font-size: 48px;
+}
+
+#buttonHelp > div {
+	position: absolute;
+}
+
+#buttonHelp .leftButton {
+	bottom: 80px;
+	left: 10px;
+}
+#buttonHelp .rightButton {
+	bottom: 5px;
+	left: 210px;
+}
+#buttonHelp .upButton {
+	bottom: 600px;
+	right: 10px;
+}
+#buttonHelp .enterButton {
+	bottom: 350px;
+	right: 15px;
+}
+#buttonHelp .downButton {
+	bottom: 100px;
+	right: 10px;
 }
 
 .currentSlide{
@@ -79,39 +112,86 @@ h1, h2, h3 {
 	height: 100vh;
 }
 
+.controlPanel {
+	width: 100%;
+	height: 100vh;
+}
+.controlPanel .slideBox {
+	position: relative;
+	overflow:hidden;
+	height: 768px;
+	width: 1024px;
+	transform: scale(0.75);
+	transform-origin: 50px 75px;
+	box-shadow: 0 0 2px 1px rgba(0,0,0, 0.4);
+}
+
+/* -- Content styling -- */
+.huge {font-size: 64px}
+.large {font-size: 48px}
+.normal {font-size: 32px}
+.small {font-size: 24px}
+.tiny {font-size: 18px}
+.outline {
+	color: #fff;
+	text-shadow:
+		 3px  3px black,
+		 3px -3px black,
+		-3px  3px black,
+		-3px -3px black;
+}
+
+/* -- Content elements -- */
+.lineCaption {
+	font-weight: bold;
+	border-bottom: 4px solid #fff;
+	padding: 15px 20px;
+	line-height: 120%;
+}
+
 .middle {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
 }
-.center {
-	text-align: center;
+.center {text-align: center;}
+.right {text-align: right;}
+
+/* -- Slide styles -- */
+.imageAside {
+	display: flex;
+	height: 100vh;
 }
-.huge {font-size: 72px}
-.large {font-size: 60px}
-.normal {font-size: 48px}
-.small {font-size: 28px}
-.outline {
-	color: #fff;
-	text-shadow:
-		 4px  4px black,
-		 4px -4px black,
-		-4px  4px black,
-		-4px -4px black;
+.imageAside .imageContainer {
+	width: 350px;
+	flex: 0 0 auto;
+	overflow: hidden;
+	background: #555 no-repeat center;
+	background-size: cover;
+}
+.imageAside .content {
+	flex: 1 0 auto;
+	width: calc(50vw - 350px);
+	overflow: hidden;
+	position: relative;
 }
 
-.controlPanel {
-	background: rgba(200,200,200,0.7);
-	position: relative;
+.washedBgImage {
+	height: 100vh;
+}
+.washedBgImage .imageContainer,
+.washedBgImage .content{
+	position: absolute;
+	z-index: 1;
 	width: 100%;
 	height: 100vh;
-	padding: 30px;
 }
-.controlPanel .slideBox {
-	position: relative;
-	border: 5px solid #000;
-	width: 70%;
-	height: 70%;
-	zoom: 0.7;
+.washedBgImage .imageContainer {
+	background: #555 no-repeat center;
+	background-size: cover;
+	filter: contrast(10%) brightness(180%) saturate(30%);
+}
+.washedBgImage .content {
+	z-index: 2;
 }
