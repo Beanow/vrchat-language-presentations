@@ -190,7 +190,6 @@ h1, h2, h3 {
 .washedBgImage .imageContainer {
 	background: #555 no-repeat center;
 	background-size: cover;
-	filter: contrast(10%) brightness(180%) saturate(30%);
 }
 .washedBgImage .content {
 	z-index: 2;
