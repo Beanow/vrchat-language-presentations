@@ -28,7 +28,7 @@ module.exports = {
 		</ImageAside>,
 		<WashedBgImage color={CBLUE} image={imageURL('wash-world-thumb.180805.png')}>
 			<div style={{padding: '0 1em'}}>
-				<p className="lineCaption small" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
+				<p className="lineCaption" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
 				<p className="center"><img src={imageURL('ctrl-overview.180805.png')} style={{width: '480px'}} /></p>
 				<p className="center">
 					These are the teacher controls<br/>
@@ -38,7 +38,7 @@ module.exports = {
 		</WashedBgImage>,
 		<WashedBgImage color={CBLUE} image={imageURL('wash-world-thumb.180805.png')}>
 			<div style={{padding: '0 1em'}}>
-				<p className="lineCaption small" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
+				<p className="lineCaption" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
 				<p className="center"><img src={imageURL('ctrl-overview-left-right.180805.png')} style={{width: '480px'}} /></p>
 				<p className="center">
 					These buttons are <Red>previous</Red> and <Red>next</Red><br/>
@@ -48,7 +48,7 @@ module.exports = {
 		</WashedBgImage>,
 		<WashedBgImage color={CBLUE} image={imageURL('wash-world-thumb.180805.png')}>
 			<div style={{padding: '0 1em'}}>
-				<p className="lineCaption small" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
+				<p className="lineCaption" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
 				<p className="center"><img src={imageURL('ctrl-overview-menu.180805.png')} style={{width: '480px'}} /></p>
 				<p className="center">
 					While these buttons handle the <Red>menu</Red><br/>
@@ -58,7 +58,7 @@ module.exports = {
 		</WashedBgImage>,
 		<WashedBgImage color={CBLUE} image={imageURL('wash-world-thumb.180805.png')}>
 			<div style={{padding: '0 1em'}}>
-				<p className="lineCaption small" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
+				<p className="lineCaption" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
 				<p className="center"><img src={imageURL('menu.180805.gif')} style={{width: '50%'}} /></p>
 				<p className="center">
 					The menu lets you switch presentations<br/>
@@ -68,7 +68,7 @@ module.exports = {
 		</WashedBgImage>,
 		<WashedBgImage color={CBLUE} image={imageURL('wash-world-thumb.180805.png')}>
 			<div style={{padding: '0 1em'}}>
-				<p className="lineCaption small" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
+				<p className="lineCaption" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
 				<p className="center"><img src={imageURL('menu.180805.gif')} style={{width: '50%'}} /></p>
 				<p className="center">
 					The active presentation is shown in <Red>color</Red><br/>
@@ -78,7 +78,7 @@ module.exports = {
 		</WashedBgImage>,
 		<WashedBgImage color={CBLUE} image={imageURL('wash-world-thumb.180805.png')}>
 			<div style={{padding: '0 1em'}}>
-				<p className="lineCaption small" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
+				<p className="lineCaption" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
 				<p className="center"><img src={imageURL('menu.180805.gif')} style={{width: '50%'}} /></p>
 				<p className="center">
 					Press <Red>enter ▆</Red> to select a presentation<br/>
@@ -88,7 +88,7 @@ module.exports = {
 		</WashedBgImage>,
 		<WashedBgImage color={CBLUE} image={imageURL('wash-world-thumb.180805.png')}>
 			<div style={{padding: '0 1em'}}>
-				<p className="lineCaption small" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
+				<p className="lineCaption" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
 				<p className="center">
 					Please keep in mind <Red>late-joiners will not synchronize</Red><br/>
 					注意：<Red>後で入った人たちはSyncしません</Red>
@@ -104,7 +104,7 @@ module.exports = {
 		</WashedBgImage>,
 		<WashedBgImage image={imageURL('wash-world-release.180805.png')} color={CBLUE}>
 			<div style={{padding: '1em'}}>
-				<p className="lineCaption" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
+				<p className="lineCaption large" style={{borderColor: CRED}}>AUDITORIUMへようこそ<br/>WELCOME TO THE AUDITORIUM</p>
 				<p className="center" style={{paddingTop: '2em'}}>
 					This world is brought to you by Beanow<br/>
 					このワールドはご覧のBeanowの提供でお送りします
